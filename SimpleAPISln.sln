@@ -15,6 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple.API.Tests", "src\tes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C7E8185-4EE0-40AB-A8B5-B9E845019822}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
 		.gitignore = .gitignore
 		azure-pipelines.yml = azure-pipelines.yml
 	EndProjectSection
@@ -47,5 +48,8 @@ Global
 		{8CE370E2-DCFF-4601-9C3A-6BB592D2229D} = {24193F70-1626-4102-80D4-0D172A41CAC8}
 		{9D70B840-98CD-48A1-B387-1F7B3C4E4965} = {8CE370E2-DCFF-4601-9C3A-6BB592D2229D}
 		{06455814-985B-4B30-8C87-C60519783EDE} = {0BA0A419-3F71-4203-A0C2-A581FC451AD4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AF29B7D-A619-4340-84EC-94DE3BAA7F3E}
 	EndGlobalSection
 EndGlobal
