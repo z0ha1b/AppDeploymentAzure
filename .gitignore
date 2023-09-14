@@ -1,0 +1,7 @@
+src/app/Simple.API/bin
+src/app/Simple.API/obj
+
+src/tests/Simple.API.Tests/bin
+src/tests/Simple.API.Tests/obj
+/.idea
+/.vs
