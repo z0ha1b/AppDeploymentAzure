@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}simpleapi
     build:
       context: .
-      dockerfile: src/app/Simple.API/Dockerfile
+      dockerfile: ../src/app/Simple.API/Dockerfile

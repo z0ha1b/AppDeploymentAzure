@@ -6,5 +6,5 @@ src/tests/Simple.API.Tests/obj
 /.idea
 /.vs
 
-/bin
-/obj
+docker/bin
+docker/obj

@@ -6,7 +6,6 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  solutionPath: 'SimpleAPISln.sln'
 
 steps:
 
@@ -24,8 +23,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    #projects: 'src/app/Simple.API/Simple.API.csproj'
-    projects: $(solutionPath)
+    projects: 'src/app/Simple.API/Simple.API.csproj'
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
